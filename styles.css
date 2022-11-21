@@ -1,33 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
-
-
-
-.wrapper {background-color: black;
-weight:100px;
-height:100px;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 10px;
-padding-right: 10px;
-margin-top: 5px;
-margin-left: 5px;
-margin-bottom: 5px;
-margin-right: 5px;
+.main{
+    width: 1510px;
+    height: 630px;
 }
 
-.white
-{width:100px;
-height: 20px;
-color: white;}
+    .main__header{
+        width: 1170px;
+        height: 150px;
 
-.or {background-color: orange;
-    padding-left: 40px;}
-.bl {background-color: blue;
-    margin-top: 5px;
-    padding-left: 40px;}
-.gr {background-color: green;
-    margin-top: 5px;
-    padding-left: 40px;}
-.pr {background-color: purple;
-    margin-top: 5px;
-    padding-left: 40px;}
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 170px;
+
+        text-align: center;
+        vertical-align: bottom;
+        box-sizing: border-box;
+        font-family: Raleway, 'Arial Narrow', Arial, sans-serif;
+        padding-bottom: 0px;
+        display: inline;
+        align-items: center;
+    }
+
+    .main__undscrtxt{
+        width: 1169px;
+        height: 21px;
+        margin-left: 170px;
+        color: #86878B;
+        font-weight: 400;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+    }
+/* <-----------------------------------------> */
+    .main__second{
+        
+        width: 1510px;
+        height: 500px;
+        display: flex;}
+
+        .second__bulb{
+            width: 542px;
+            height: 454px;
+            box-sizing: border-box;
+            text-align: center;
+            padding-left: 172px;
+            padding-top: 110px;}
+
+            .bulb__img{
+                width: 92px;
+                height: 92px;
+                display:inline;}
+
+            .bulb__alt{
+                width: 370px;
+                height: 100px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 33px;
+                padding-top: 38px;
+                text-align: center;
+                font-family: 'Open Sans', Courier, monospace;
+                box-sizing: border-box;}
+
+            .bulb__descr{
+                width: 370px;
+                height: 105px;
+                text-align: center;
+                font-family: Railway, 'Open Sans';
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                box-sizing: border-box;}
+    /* <-----------------------------------------> */
+        .second__keyboard{
+            width: 400px;
+            height: 454px;
+            box-sizing: border-box;
+            align-items: center;
+            padding-left: 30px;
+            padding-top: 110px;
+            text-align: center;}
+
+            .keyboard__img{
+                width: 92px;
+                height: 92px;
+                display:inline;}
+
+            .keyboard__alt{
+                width: 370px;
+                height: 100px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 33px;
+                text-align: center;
+                padding-top: 38px;
+                font-family: 'Open Sans', Courier, monospace;
+                box-sizing: border-box;}
+
+            .keyboard__descr{
+                width: 370px;
+                height: 105px;
+                text-align: center;
+                font-family: Railway, 'Open Sans';
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                box-sizing: border-box;}
+    /* <-----------------------------------------> */
+        .second__lightning{
+            width: 400px;
+            height: 454px;
+            box-sizing: border-box;
+            align-items: center;
+            padding-left: 30px;
+            padding-top: 110px;
+            text-align: center;}
+
+            .lightning__alt{
+                width: 370px;
+                height: 100px;
+                font-weight: 700;
+                font-size: 24px;
+                padding-top: 38px;
+                line-height: 33px;
+                text-align: center;
+                font-family: 'Open Sans', Courier, monospace;
+                box-sizing: border-box;}
+
+            .lightning__img{
+                width: 92px;
+                height: 92px;
+                display:inline;}
+
+            .lightning__descr{
+                width: 370px;
+                height: 105px;
+                text-align: center;
+                font-family: Railway, 'Open Sans';
+                font-size: 18px;
+                line-height: 21.13px;
+                text-align: center;
+                box-sizing: border-box;}
